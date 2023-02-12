@@ -1,0 +1,138 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-y: auto;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+#container {
+  min-height: 100vh;
+  position: relative;
+}
+
+#topBar {
+  height: 53.58px; 
+}
+
+#main {
+  max-width: 55rem;
+  margin: 0 auto;
+  padding: 2em;
+  padding-bottom: 95px;
+}
+
+/* #main.loggedOut {
+  max-width: 25rem;
+  margin: 0 auto;  
+  padding: 1em;
+  height: calc(100vh - 130.42px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  background-color: #292929;
+  border-top: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ui.button.magentaBtn {
+   background-color: #E20074; 
+   color: #fff; 
+}
+
+.ui.button.magentaBtn:hover {
+  background-color: #E20074;
+  color: #fff;
+}
+
+.ui.input {
+  padding: 0.3rem 0.8rem;  
+  background-color: #F3F3F3;
+  border-radius: 5px;
+  height: 42px;
+  font-size: 1.1rem;
+}
+
+.ui.modal {
+  position: relative;
+  display: flex;
+  background: #fa0101;
+}
+
+/* .modal-content {
+  height: 25rem;
+  overflow-y: overlay;
+  padding: 0.5rem 1rem !important; 
+} */
+
+.empty-modal {
+  display: flex !important;
+  justify-content: center; 
+  align-items: center;
+} 
+
+.search-dropdown .ui.search.dropdown {
+  border: 0; 
+  height: 42px; 
+  border-radius: 5px;
+  background-color: #F3F3F3;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+#stateInput.ui.default.dropdown:not(.button)>.text, .ui.dropdown:not(.button)>.default.text {
+  color: #6A6A6A; 
+}
+
+::placeholder {
+  color: #6A6A6A !important;
+}
+
+.visible.transition {
+  margin-top: auto !important;
+  display: inline-block !important;
+  position: relative;
+  top: 15%;
+}
+
+.downloadBtn {
+  color: #fff;
+}
+
+.downloadBtn:hover {
+  color: #fff;
+}
+
+.ui.segment.magentaSegment {
+  color: #fd8801; 
+  border-top-color: #fd8801;
+  border-top-width: 2px;
+}
+
+.newChannels {
+  color: #E20074; 
+  border-top-color: #E20074;
+  border-top-width: 2px;
+  align-content: center;
+}
+
+
+
+::global(.dimmed.dimmable > .ui.modals.dimmer.visible) {
+  display: flex !important;
+}
+/* .dimmed.dimmable > .ui.modals.dimmer.visible {
+  display: flex !important;
+} */
