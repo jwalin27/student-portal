@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { initializeApp } from "firebase/app";
+import Topbar from './component/Topbar';
 
 // TODO: Replace the following with your app's Firebase project configuration
 const firebaseConfig ={
@@ -20,6 +21,7 @@ console.log(app.name)
 function App() {
   return (
     <div id='container'>
+      <Topbar />
       <div id='main'>
         <span>"Hello world"</span>
        
