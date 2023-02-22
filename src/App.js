@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import Topbar from './component/Topbar';
 import Main from './component/Main'
 import { Route, Switch, withRouter } from 'react-router-dom';
 
@@ -19,8 +18,8 @@ const firebaseConfig ={
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-// const app = initializeApp(firebaseConfig);
+getAnalytics(app);
+ // const app = initializeApp(firebaseConfig);
 function App() {
   return (
     <div id='container'>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Header, Card, Container } from 'semantic-ui-react'
+import { Header, Container } from 'semantic-ui-react'
 
 
 export default class HomeView extends Component {
