@@ -15,14 +15,14 @@ const firebaseConfig ={
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
+console.log(app.name)
 // const app = initializeApp(firebaseConfig);
 function App() {
   return (
     <div id='container'>
       <div id='main'>
         <span>"Hello world"</span>
-        console.log(app.name)
+       
         {/* <Switch>
           <Route path='/' component={Main} />
         </Switch> */}
