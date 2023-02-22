@@ -22,6 +22,7 @@ function App() {
     <div id='container'>
       <div id='main'>
         <span>"Hello world"</span>
+        console.log(app.name)
         {/* <Switch>
           <Route path='/' component={Main} />
         </Switch> */}
